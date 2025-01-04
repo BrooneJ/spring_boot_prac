@@ -29,14 +29,14 @@ class DataInitializer(
         title = "Achievement 1",
         description = "Description 1",
         host = "Host 1",
-        achievementDate = LocalDate.of(2025, 1, 1),
+        achievedDate = LocalDate.of(2025, 1, 1),
         isActive = true
       ),
       Achievement(
         title = "Achievement 2",
         description = "Description 2",
         host = "Host 2",
-        achievementDate = LocalDate.of(2025, 2, 2),
+        achievedDate = LocalDate.of(2025, 2, 2),
         isActive = true
       ),
     )
