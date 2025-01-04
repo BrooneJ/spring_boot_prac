@@ -1,0 +1,6 @@
+package com.example.spring_boot_prec.presentation.interceptor
+
+import org.springframework.context.annotation.Configuration
+
+@Configuration
+class PresentationInterceptorConfig
