@@ -8,8 +8,9 @@ spring:
     properties:
       hibernate:
         format_sql: false
-    datasource:
-        url: jdbc:mysql://mysql:3306/testdb
-        username: root
-        password: ENC(5Q0kblp/F+yDvz11YgjH+byOIIpu/AuA)
-        driver-class-name: com.mysql.cj.jdbc.Driver
+        default_batch_fetch_size: 10
+  datasource:
+    url: jdbc:mysql://mysql:3306/testdb
+    username: root
+    password: ENC(5Q0kblp/F+yDvz11YgjH+byOIIpu/AuA)
+    driver-class-name: com.mysql.cj.jdbc.Driver
